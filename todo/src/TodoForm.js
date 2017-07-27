@@ -23,7 +23,7 @@ class TodoForm extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <form className="todo-form" onSubmit={ this.addTodo }>
           <h1>2dews</h1>
           <div className="input-container">
