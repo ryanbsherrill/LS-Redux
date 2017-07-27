@@ -5,7 +5,7 @@ import TodoForm from './TodoForm';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <TodoForm />
       </div>
     );

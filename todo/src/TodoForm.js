@@ -30,7 +30,7 @@ class TodoForm extends Component {
             <input className="input-bar" value={ this.state.todo } onChange={ this.getTodo }/>
             <button className="submit-button" type="submit"></button>
           </div>
-            <div>
+            <div className="list-div">
               <ul className="my-list">
                 { this.state.todos.map((todo, index) => <li key={index}>{todo}</li>) }
               </ul>

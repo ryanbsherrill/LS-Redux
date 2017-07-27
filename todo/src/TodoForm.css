@@ -1,6 +1,19 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
 .todo-form {
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.input-container {
+  /* margin-top: 200px; */
+  height: 30px;
+  text-align: center;
 }
 
 h1 {
@@ -53,10 +66,8 @@ h1 {
   vertical-align: bottom;
 }
 
-.input-container {
-  /* margin-top: 200px; */
-  height: 30px;
-  text-align: center;
+.list-div {
+  height: 100%;
 }
 
 .my-list {
@@ -67,4 +78,6 @@ h1 {
   padding: 0px;
   list-style-type: none;
   text-align: center;
+  height: 100%;
 }
+
